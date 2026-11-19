@@ -24,3 +24,11 @@ src/
 public/               CSS and browser JS
 ```
 Everything is a placeholder for now.
+
+## Test accounts (temporary, no database yet)
+Open http://localhost:3000/login
+
+| Role | Email | Password |
+|---|---|---|
+| Étudiant | etudiant@getaclass.test | Etudiant#2026 |
+| Enseignant | enseignant@getaclass.test | Enseignant#2026 |

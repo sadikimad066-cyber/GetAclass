@@ -5,3 +5,15 @@ nav a { color: #fff; text-decoration: none; }
 nav .brand { font-weight: 700; margin-right: auto; }
 main { max-width: 900px; margin: 40px auto; padding: 0 16px; }
 .soon { font-size: 1.4rem; color: #888; }
+
+/* Login page (no nav bar) */
+.login-body { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #1f3a5f; }
+.login-card { width: 100%; max-width: 380px; margin: 16px; padding: 32px; background: #fff; border-radius: 10px; box-shadow: 0 8px 24px rgba(0, 0, 0, .2); }
+.login-brand { margin: 0; text-align: center; color: #1f3a5f; }
+.login-subtitle { margin: 6px 0 24px; text-align: center; color: #666; }
+.login-card form { display: flex; flex-direction: column; }
+.login-card label { margin-bottom: 6px; font-weight: 600; }
+.login-card input { margin-bottom: 16px; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; }
+.login-card button { padding: 12px; border: 0; border-radius: 6px; background: #1f3a5f; color: #fff; font-size: 1rem; cursor: pointer; }
+.login-card button:hover { background: #2c5282; }
+.login-error { padding: 10px; border-radius: 6px; background: #fdecea; color: #b42318; }

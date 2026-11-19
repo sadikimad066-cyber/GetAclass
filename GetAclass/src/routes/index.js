@@ -9,6 +9,7 @@ const reservations = require('../controllers/reservationController');
 router.get('/', home.index);
 
 router.get('/login', auth.loginPage);   // Authentification
+router.post('/login', auth.login);
 router.get('/logout', auth.logout);
 
 router.get('/profile', profile.show);   // Profil
