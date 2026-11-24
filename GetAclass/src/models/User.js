@@ -1,3 +1,4 @@
+
 // Model: User
 // TEMPORARY: test users kept in memory until a database is chosen.
 // Passwords are stored as scrypt hashes (Node built-in crypto), never in plain text.
